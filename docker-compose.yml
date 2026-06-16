@@ -1,0 +1,5 @@
+# Unified local stack: ingestor (WeakApp, RabbitMQ, monitoring) + statistics (PostgreSQL, consumer).
+# Requires Docker Compose v2 with `include` support.
+include:
+  - path: ./DataIngestorService/docker-compose.yml
+  - path: ./DataStatisticsService/docker-compose.yml

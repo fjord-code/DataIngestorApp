@@ -1,0 +1,6 @@
+[submodule "DataIngestorService"]
+	path = DataIngestorService
+	url = https://github.com/fjord-code/DataIngestorService.git
+[submodule "DataStatisticsService"]
+	path = DataStatisticsService
+	url = https://github.com/fjord-code/DataStatisticsService.git
