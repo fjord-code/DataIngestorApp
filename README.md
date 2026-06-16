@@ -80,3 +80,12 @@ git commit -m "Bump DataIngestorService to latest main"
 ## Integration contract
 
 Cross-service messaging uses RabbitMQ only — no HTTP calls between services. See [`.cursor/data-ingestor-integration.mdc`](.cursor/data-ingestor-integration.mdc) for the message contract, topology, and layering rules.
+
+## Publish to GitHub
+
+Create an empty repository at `https://github.com/fjord-code/DataIngestorApp` (no README), then push this parent repo:
+
+```bash
+git remote add origin https://github.com/fjord-code/DataIngestorApp.git   # skip if already set
+git push -u origin main
+```
