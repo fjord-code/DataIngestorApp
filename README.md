@@ -33,7 +33,10 @@ Service endpoints (defaults):
 | Service | URL |
 |---------|-----|
 | Data Ingestor API | http://localhost:5000 |
-| Data Statistics API | http://localhost:5100 |
+| Data Statistics Processor | http://localhost:5100 |
+| Data Statistics Gateway (GraphQL/REST) | http://localhost:5200 |
+| Data Statistics Notification (SignalR) | http://localhost:5300 |
+| Data Statistics Frontend | http://localhost:4200 |
 | RabbitMQ management | http://localhost:15672 |
 | WeakApp | http://localhost:8080 |
 | Grafana | http://localhost:3000 |
